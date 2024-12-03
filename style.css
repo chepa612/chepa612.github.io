@@ -12,7 +12,7 @@ html {
     justify-content: center;
 }
 
-body {
+html {
     background: linear-gradient(135deg, #0E4AFF, #4A90E2);
 }
 
