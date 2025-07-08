@@ -1,18 +1,129 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oups, Serveur Déconnecté</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Médéric - Portail de la communauté</title>
+  <link rel="icon" type="image/jpeg" href="WhatsApp Image 2025-07-07 à 17.57.52_208f4f69.jpg" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f8fb;
+      color: #333;
+    }
+
+    header {
+      background-color: #ceb2da;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      color: #555;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      color: #a12d82;
+    }
+
+    .card p {
+      margin-bottom: 1rem;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #a12d82;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .card a:hover {
+      background: #861b6c;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      padding: 2rem 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .card h2 {
+        font-size: 1.2rem;
+      }
+
+      .card {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <h1>Oups !</h1>
-            <p>Le serveur est momentanément inaccessible.<br>Veuillez réessayer ultérieurement.</p>
-            <!--<a href="/" class="retry-button">Réessayer</a>-->
-        </div>
+  <header>
+    <img src="WhatsApp Image 2025-07-07 à 17.57.52_208f4f69.jpg" alt="Logo Médéric" style="height: 60px; margin-bottom: 1rem;" />
+    <h1>💘 Bienvenue sur Médéric</h1>
+    <p>Le portail de la communauté romantique (et absurde) powered by <a href="chatgpt.com">ChatGPT</a></p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>👋 Rejoindre la communauté</h2>
+      <p>Tu veux rejoindre les amoureux chaotiques de Médéric ? Clique ici pour remplir le formulaire d'entrée.</p>
+      <a href="https://forms.gle/TSQBdGHqNpz5mKPy8" target="_blank">Remplir le formulaire</a>
     </div>
+
+    <div class="card">
+      <h2>🗣️ Donner ton avis</h2>
+      <p>Tu as des idées, des critiques, ou juste envie de dire "j’aime Médéric" ? Ce formulaire est pour toi !</p>
+      <a href="https://forms.gle/h3ZhjFHKkVAS6BDh6" target="_blank">Donner mon avis</a>
+    </div>
+
+    <div class="card">
+      <h2>👑 Devenir administrateur</h2>
+      <p>Tu veux aider à modérer ou faire vivre Médéric ? Propose ta candidature ici. (Soumise à acceptation.)</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSedsd-FmtS0OTLUZqItx76oe99vYMwW_QhQriTg9LxJUlkdiw/viewform?usp=header" target="_blank">Candidater</a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Médéric • Design assisté par <a href="chatgpt.com">ChatGPT</a> ✨
+  </footer>
 </body>
 </html>
